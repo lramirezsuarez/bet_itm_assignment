@@ -178,6 +178,8 @@ This will be in the scripts folder with the script that will include all the que
 - Tables normalization and design video: [Tables and Diagram Explanation](https://drive.google.com/open?id=1380UvjeLm_un84PS40Kl1iYYOCfK4fF-) 
 - Articles review and explanation: [Articles REVIEW](https://drive.google.com/open?id=1bLLFG3ieXsezDn-eNGYpWDL7mf7VmXTA)
 
+### Second part of the group work
+
 11. Vistas
 - Second part of the script file.
 
@@ -188,7 +190,7 @@ This will be in the scripts folder with the script that will include all the que
 - Second part of the script file.
 
 14. Articulos
-- 
+- [Articles review](Resumen_articulos.txt)
 
 15. Sustentacion
 - 

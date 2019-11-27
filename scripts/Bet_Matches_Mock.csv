@@ -1,101 +1,101 @@
-ID,LOCAL_TEAM,VISITOR_TEAM,MATCH_DATE,MATCH_TIME,STATUS,SOFT_DELETION
-1,libero convallis eget,morbi vel lectus,2018-11-05,2019-07-18 20:46:05,EN CURSO,DELETED
-2,porttitor pede justo,consequat nulla,2018-11-01,2018-12-26 16:31:38,EN CURSO,ENABLED
-3,sed interdum venenatis,libero non mattis,2019-02-15,2019-05-12 21:27:20,PROGRAMADO,ENABLED
-4,libero nullam,auctor gravida sem,2019-02-04,2019-05-20 18:46:16,FINALIZADO,DELETED
-5,morbi non,erat fermentum justo,2019-09-05,2018-12-08 10:29:13,FINALIZADO,ENABLED
-6,sit amet,posuere metus vitae,2019-07-21,2019-01-26 11:22:49,PROGRAMADO,DELETED
-7,neque duis,ligula pellentesque ultrices,2019-02-05,2019-02-07 17:02:57,PROGRAMADO,DELETED
-8,sed sagittis nam,nullam orci,2019-02-10,2018-12-26 23:47:00,PROGRAMADO,DELETED
-9,sapien in sapien,imperdiet sapien,2019-03-27,2018-11-05 07:51:03,PROGRAMADO,ENABLED
-10,odio cras mi,sit amet sapien,2019-10-13,2019-02-10 14:23:48,EN CURSO,DELETED
-11,accumsan tellus nisi,odio condimentum id,2019-01-25,2019-03-18 19:48:43,PROGRAMADO,ENABLED
-12,quam sollicitudin,at velit vivamus,2019-07-01,2019-03-25 10:55:57,FINALIZADO,DELETED
-13,fermentum donec ut,turpis integer aliquet,2019-04-14,2018-12-03 10:54:19,EN CURSO,ENABLED
-14,lorem vitae,libero non mattis,2019-05-31,2019-02-11 08:59:20,PROGRAMADO,ENABLED
-15,eget elit,aliquam augue quam,2019-01-03,2018-11-28 08:14:30,EN CURSO,ENABLED
-16,cursus id,nibh fusce,2019-08-26,2019-05-09 06:48:19,FINALIZADO,DELETED
-17,consequat morbi a,aliquet maecenas leo,2019-08-19,2019-09-28 02:40:15,FINALIZADO,DELETED
-18,nisl duis,tellus nisi eu,2019-01-10,2019-07-03 14:03:16,FINALIZADO,ENABLED
-19,sit amet,id nulla,2018-11-05,2018-12-10 14:06:43,EN CURSO,DELETED
-20,mi integer,convallis nulla,2019-05-22,2019-05-29 09:47:23,EN CURSO,DELETED
-21,rutrum nulla tellus,nec euismod scelerisque,2019-02-08,2019-07-18 01:45:39,EN CURSO,DELETED
-22,posuere felis,maecenas pulvinar lobortis,2018-11-23,2018-11-17 06:09:06,FINALIZADO,ENABLED
-23,odio curabitur convallis,pulvinar lobortis,2019-09-25,2019-06-28 05:09:44,FINALIZADO,ENABLED
-24,dui maecenas tristique,vestibulum ante,2018-11-24,2019-09-28 20:30:52,EN CURSO,DELETED
-25,feugiat non pretium,et eros vestibulum,2019-07-15,2019-08-21 00:46:12,PROGRAMADO,DELETED
-26,nullam molestie,molestie hendrerit,2019-08-08,2019-09-18 13:01:23,PROGRAMADO,ENABLED
-27,consectetuer adipiscing elit,nulla nunc,2019-05-31,2019-08-09 21:24:09,FINALIZADO,DELETED
-28,vel est donec,semper rutrum nulla,2018-11-30,2019-02-16 12:39:49,FINALIZADO,DELETED
-29,sed vestibulum sit,massa id lobortis,2018-11-26,2018-11-25 01:03:28,EN CURSO,ENABLED
-30,sem duis aliquam,amet sapien,2018-11-26,2019-04-23 09:38:11,EN CURSO,ENABLED
-31,non lectus,in lectus,2019-02-07,2019-03-30 06:30:21,FINALIZADO,ENABLED
-32,parturient montes nascetur,ut suscipit,2019-05-18,2019-09-16 05:35:44,FINALIZADO,ENABLED
-33,at vulputate,sagittis sapien,2019-07-10,2019-02-22 13:06:46,FINALIZADO,ENABLED
-34,posuere cubilia curae,in tempus sit,2019-05-13,2018-11-10 15:12:17,EN CURSO,DELETED
-35,ut rhoncus,lorem ipsum dolor,2019-04-22,2019-02-15 11:32:54,FINALIZADO,DELETED
-36,habitasse platea dictumst,convallis nunc,2019-10-07,2019-09-06 22:50:28,PROGRAMADO,DELETED
-37,blandit nam nulla,amet consectetuer,2019-06-05,2019-04-23 15:37:40,FINALIZADO,ENABLED
-38,convallis eget,vel ipsum praesent,2018-11-26,2019-04-08 13:42:00,PROGRAMADO,ENABLED
-39,rhoncus sed vestibulum,accumsan odio curabitur,2018-12-27,2019-07-13 11:48:31,FINALIZADO,ENABLED
-40,nunc commodo,nec sem duis,2019-08-29,2019-07-10 14:35:53,FINALIZADO,ENABLED
-41,porta volutpat erat,amet nulla,2019-03-21,2018-11-18 18:24:35,EN CURSO,DELETED
-42,ac nulla sed,at turpis a,2019-10-16,2018-11-14 08:08:21,FINALIZADO,DELETED
-43,libero quis orci,quam nec dui,2018-10-22,2019-02-08 09:27:34,PROGRAMADO,ENABLED
-44,in eleifend,sit amet,2019-01-13,2018-12-28 20:54:22,EN CURSO,DELETED
-45,primis in,a libero,2019-05-12,2019-02-24 21:30:54,PROGRAMADO,DELETED
-46,odio in hac,eget tempus vel,2019-06-10,2019-01-09 21:13:00,EN CURSO,ENABLED
-47,at dolor,interdum venenatis turpis,2018-10-23,2019-09-21 23:14:24,FINALIZADO,DELETED
-48,ornare imperdiet sapien,ut dolor,2019-10-08,2018-12-20 06:38:25,EN CURSO,ENABLED
-49,varius ut blandit,sit amet,2019-06-20,2018-10-21 10:46:49,EN CURSO,DELETED
-50,eget tempus,diam id,2018-12-05,2019-01-08 22:28:37,PROGRAMADO,ENABLED
-51,turpis enim blandit,nunc commodo,2018-11-19,2019-07-09 06:40:51,FINALIZADO,ENABLED
-52,elit proin risus,quisque porta volutpat,2019-05-06,2019-07-25 15:04:41,FINALIZADO,DELETED
-53,quis justo maecenas,libero nullam,2019-01-29,2019-06-06 07:31:11,EN CURSO,DELETED
-54,neque sapien,sit amet,2019-07-12,2019-02-09 13:52:19,FINALIZADO,DELETED
-55,nibh in hac,ipsum primis in,2019-03-08,2019-04-10 03:22:06,PROGRAMADO,ENABLED
-56,maecenas tincidunt lacus,orci mauris,2019-05-15,2018-11-05 02:15:02,EN CURSO,ENABLED
-57,vehicula consequat,sed sagittis,2019-07-06,2019-04-17 21:54:36,EN CURSO,ENABLED
-58,rhoncus dui,aliquam lacus,2018-11-13,2019-01-05 14:58:09,EN CURSO,ENABLED
-59,libero non mattis,turpis enim,2018-12-24,2019-02-06 18:14:08,PROGRAMADO,DELETED
-60,convallis eget eleifend,nisi at nibh,2019-08-27,2019-04-20 12:13:27,FINALIZADO,DELETED
-61,morbi a,pellentesque eget nunc,2019-07-10,2019-09-30 01:50:19,PROGRAMADO,ENABLED
-62,auctor gravida,purus phasellus in,2019-10-16,2019-05-25 17:51:00,PROGRAMADO,DELETED
-63,vel lectus,vehicula consequat morbi,2019-03-13,2019-01-23 08:46:43,EN CURSO,DELETED
-64,nec condimentum neque,vulputate justo in,2019-05-25,2019-08-03 05:39:12,PROGRAMADO,DELETED
-65,ligula suspendisse,tincidunt nulla,2019-07-07,2019-05-01 05:02:41,PROGRAMADO,ENABLED
-66,pharetra magna vestibulum,ante vel,2019-03-03,2019-07-24 11:52:57,FINALIZADO,ENABLED
-67,tempus semper est,a feugiat,2019-10-02,2019-04-16 20:58:11,EN CURSO,DELETED
-68,proin eu mi,tincidunt lacus,2019-09-24,2019-05-19 03:48:43,EN CURSO,ENABLED
-69,suscipit nulla elit,vitae ipsum,2019-04-21,2019-09-25 13:22:20,EN CURSO,ENABLED
-70,fermentum donec,semper sapien a,2019-03-24,2019-08-20 13:55:21,FINALIZADO,ENABLED
-71,in lacus,viverra pede ac,2019-08-05,2019-07-25 09:57:05,FINALIZADO,DELETED
-72,sed magna at,dictumst maecenas,2019-09-17,2019-02-11 03:44:29,PROGRAMADO,DELETED
-73,nisi venenatis,nec sem,2019-02-14,2018-12-14 14:55:43,EN CURSO,DELETED
-74,arcu adipiscing molestie,amet lobortis,2019-02-18,2018-11-30 18:12:32,EN CURSO,DELETED
-75,interdum eu,turpis nec,2018-11-24,2018-12-28 23:39:10,FINALIZADO,DELETED
-76,a feugiat et,odio donec,2019-06-05,2019-10-17 00:36:18,FINALIZADO,ENABLED
-77,dis parturient montes,proin interdum,2018-11-09,2019-05-15 01:00:24,EN CURSO,ENABLED
-78,amet eleifend pede,iaculis justo,2019-07-07,2019-06-12 00:44:31,FINALIZADO,DELETED
-79,penatibus et,sodales scelerisque,2019-01-06,2019-06-05 14:48:07,PROGRAMADO,DELETED
-80,scelerisque quam turpis,nulla integer pede,2019-02-12,2019-10-13 19:58:40,PROGRAMADO,DELETED
-81,vestibulum ante,luctus et,2019-07-11,2018-12-22 01:49:50,PROGRAMADO,ENABLED
-82,dui vel,ut tellus nulla,2019-05-12,2019-08-31 00:13:17,EN CURSO,ENABLED
-83,ut erat,potenti cras in,2019-01-20,2019-10-01 19:33:17,FINALIZADO,DELETED
-84,vulputate vitae,feugiat non pretium,2019-10-07,2019-06-12 07:43:30,PROGRAMADO,ENABLED
-85,orci pede,quam turpis,2019-08-23,2019-05-23 17:50:39,EN CURSO,DELETED
-86,praesent blandit lacinia,in quam fringilla,2019-09-06,2019-08-12 09:08:35,FINALIZADO,ENABLED
-87,sed augue,purus aliquet,2019-01-23,2019-03-19 00:05:37,PROGRAMADO,DELETED
-88,est quam pharetra,risus praesent lectus,2019-05-27,2019-02-17 20:13:17,FINALIZADO,ENABLED
-89,sollicitudin ut,ante ipsum,2018-12-19,2018-10-20 07:00:30,PROGRAMADO,ENABLED
-90,curabitur convallis duis,purus aliquet,2019-02-12,2018-11-30 05:23:59,FINALIZADO,ENABLED
-91,in tempor turpis,commodo placerat,2019-06-25,2019-03-09 17:48:14,FINALIZADO,ENABLED
-92,phasellus sit amet,quis turpis eget,2019-10-04,2019-08-29 22:44:34,PROGRAMADO,ENABLED
-93,ut nunc vestibulum,elementum in,2019-10-10,2018-12-29 09:14:45,FINALIZADO,ENABLED
-94,in purus eu,vitae quam,2018-10-26,2019-08-21 20:20:30,FINALIZADO,ENABLED
-95,massa donec,dapibus duis,2019-05-31,2019-09-07 09:51:00,EN CURSO,DELETED
-96,aliquam convallis,integer tincidunt ante,2019-06-25,2019-01-06 06:26:30,EN CURSO,DELETED
-97,morbi sem mauris,pellentesque quisque porta,2019-06-13,2019-09-19 20:50:35,EN CURSO,ENABLED
-98,hac habitasse,aliquet pulvinar,2019-03-23,2018-12-31 03:11:44,FINALIZADO,DELETED
-99,ligula sit amet,tristique tortor eu,2019-03-20,2019-07-11 04:07:31,FINALIZADO,DELETED
-100,vel accumsan tellus,dui luctus rutrum,2019-04-04,2019-01-19 20:54:57,PROGRAMADO,ENABLED
+ID,LOCAL_TEAM,VISITOR_TEAM,MATCH_DATE,MATCH_TIME,WINNER_TEAM,STATUS,SOFT_DELETION
+1,posuere cubilia,sit amet,2019/09/27,2018-12-17 17:50:36,in hac habitasse,EN CURSO,ENABLED
+2,non velit,id sapien in,2019/07/04,2019-01-15 23:09:22,augue aliquam erat,EN CURSO,DELETED
+3,in est,luctus cum,2019/02/14,2019-11-15 21:15:13,semper porta,PROGRAMADO,DELETED
+4,non lectus,ultrices aliquet maecenas,2019/07/23,2018-12-19 17:33:43,ultrices posuere cubilia,EN CURSO,DELETED
+5,tincidunt lacus,donec odio justo,2019/07/21,2019-06-20 09:38:49,habitasse platea dictumst,PROGRAMADO,ENABLED
+6,aliquam erat,metus aenean fermentum,2019/05/29,2019-06-24 15:08:37,nulla nisl nunc,PROGRAMADO,DELETED
+7,congue risus semper,sapien dignissim vestibulum,2019/09/21,2019-02-24 17:44:29,vel ipsum,EN CURSO,DELETED
+8,morbi quis tortor,elit ac,2018/12/02,2019-11-25 10:22:08,lacinia eget,FINALIZADO,DELETED
+9,a suscipit,enim lorem,2019/09/11,2018-11-30 06:03:51,venenatis non,PROGRAMADO,DELETED
+10,turpis sed ante,ut odio cras,2019/07/12,2019-02-12 19:31:35,dapibus augue vel,FINALIZADO,DELETED
+11,nullam orci pede,nulla ultrices,2019/01/19,2018-12-12 00:33:47,sed ante vivamus,FINALIZADO,DELETED
+12,fermentum justo,duis faucibus accumsan,2019/03/09,2019-01-12 05:31:43,faucibus orci luctus,EN CURSO,ENABLED
+13,risus auctor,pulvinar lobortis,2019/11/07,2019-06-23 07:02:57,donec quis,FINALIZADO,ENABLED
+14,penatibus et magnis,curabitur gravida,2019/03/12,2019-07-09 00:22:43,massa id nisl,FINALIZADO,DELETED
+15,ac tellus semper,volutpat eleifend donec,2019/06/13,2019-09-10 00:12:04,etiam justo,FINALIZADO,DELETED
+16,orci luctus,eros elementum,2019/08/31,2019-02-01 18:05:52,scelerisque quam,EN CURSO,ENABLED
+17,dapibus dolor vel,nibh ligula,2019/04/22,2019-05-06 17:28:37,tempus vel pede,PROGRAMADO,DELETED
+18,curabitur in,hendrerit at vulputate,2019/11/07,2018-12-20 07:20:39,ipsum dolor,FINALIZADO,DELETED
+19,ante vivamus,sapien quis libero,2019/03/06,2018-12-15 01:48:43,vivamus vestibulum,PROGRAMADO,DELETED
+20,eros elementum,morbi vel,2019/05/08,2018-12-14 17:31:06,quam pede,PROGRAMADO,DELETED
+21,ipsum primis in,nullam sit amet,2019/08/05,2019-06-30 05:41:45,quam suspendisse potenti,FINALIZADO,DELETED
+22,nulla tellus in,massa id nisl,2019/10/26,2019-01-28 18:31:47,faucibus orci luctus,FINALIZADO,DELETED
+23,pretium iaculis,metus sapien,2019/09/22,2019-04-03 05:24:02,accumsan tortor quis,PROGRAMADO,DELETED
+24,aliquam augue,volutpat eleifend donec,2018/12/06,2019-11-15 15:46:34,vel nisl,FINALIZADO,ENABLED
+25,eget congue,ut dolor morbi,2019/06/24,2019-10-26 15:25:29,cras non velit,PROGRAMADO,ENABLED
+26,ante vivamus,in felis donec,2019/01/02,2019-02-08 06:12:43,id massa id,PROGRAMADO,DELETED
+27,ipsum primis in,luctus tincidunt nulla,2019/06/26,2019-09-27 05:06:03,et eros,PROGRAMADO,DELETED
+28,viverra pede,consequat morbi a,2019/07/21,2019-05-11 08:19:07,magna vulputate luctus,PROGRAMADO,ENABLED
+29,in leo maecenas,lectus suspendisse,2019/07/29,2019-07-17 18:10:15,lacinia nisi venenatis,PROGRAMADO,ENABLED
+30,volutpat erat,diam erat fermentum,2019/11/04,2019-08-22 18:54:39,vulputate elementum,PROGRAMADO,ENABLED
+31,nullam orci pede,turpis integer aliquet,2019/08/22,2019-04-14 22:30:11,magnis dis parturient,FINALIZADO,DELETED
+32,suspendisse potenti,ultricies eu,2019/05/07,2019-06-04 11:25:03,quis tortor,FINALIZADO,DELETED
+33,in eleifend,vivamus metus,2019/03/18,2019-04-28 06:02:47,interdum in,FINALIZADO,DELETED
+34,molestie sed,ridiculus mus,2018/12/04,2019-02-08 07:59:08,nulla quisque arcu,PROGRAMADO,DELETED
+35,accumsan odio,arcu adipiscing,2018/12/20,2019-01-09 15:27:34,vivamus vel nulla,EN CURSO,ENABLED
+36,quisque porta volutpat,et commodo,2019/03/30,2019-01-28 09:05:28,nisi volutpat eleifend,EN CURSO,DELETED
+37,magna vestibulum aliquet,curae nulla,2019/11/04,2019-09-12 04:16:21,egestas metus,FINALIZADO,ENABLED
+38,hac habitasse platea,consequat ut,2019/10/07,2019-09-22 11:31:25,hac habitasse,FINALIZADO,ENABLED
+39,ut erat curabitur,arcu sed augue,2019/07/29,2019-09-19 15:22:34,leo maecenas pulvinar,EN CURSO,ENABLED
+40,iaculis congue vivamus,adipiscing molestie hendrerit,2019/04/11,2019-09-12 07:18:24,tincidunt lacus,FINALIZADO,DELETED
+41,orci eget orci,potenti cras in,2019/02/26,2019-02-01 18:35:21,nunc nisl duis,FINALIZADO,DELETED
+42,laoreet ut,quam pede,2018/12/23,2018-12-11 09:09:58,amet cursus id,FINALIZADO,DELETED
+43,accumsan odio curabitur,eu interdum eu,2019/01/25,2019-09-29 21:43:05,nullam orci pede,PROGRAMADO,DELETED
+44,augue vestibulum,sodales sed tincidunt,2019/03/01,2019-08-07 01:21:59,aenean auctor,EN CURSO,DELETED
+45,venenatis tristique fusce,turpis elementum,2019/04/11,2019-10-25 13:06:26,tempor convallis nulla,FINALIZADO,ENABLED
+46,mauris vulputate,porta volutpat quam,2019/10/26,2019-10-30 17:28:42,a ipsum,EN CURSO,ENABLED
+47,orci luctus,curabitur in,2019/04/23,2019-01-26 10:54:57,iaculis justo in,PROGRAMADO,DELETED
+48,ornare consequat,amet nulla quisque,2019/05/15,2019-11-14 18:02:45,vitae consectetuer eget,PROGRAMADO,ENABLED
+49,consequat ut nulla,pretium iaculis diam,2019/11/09,2019-05-05 18:18:28,justo lacinia,FINALIZADO,DELETED
+50,massa quis augue,ut dolor morbi,2019/05/04,2019-02-10 20:27:52,dui maecenas tristique,FINALIZADO,DELETED
+51,neque vestibulum eget,ut erat,2019/08/27,2019-08-27 12:35:16,massa id,FINALIZADO,DELETED
+52,sociis natoque penatibus,euismod scelerisque quam,2019/03/19,2019-07-11 01:56:44,integer ac leo,PROGRAMADO,DELETED
+53,ipsum primis in,vestibulum aliquet ultrices,2019/11/20,2019-05-28 17:35:44,volutpat eleifend,PROGRAMADO,DELETED
+54,nunc viverra,praesent id,2019/11/10,2019-11-02 14:12:11,felis donec,PROGRAMADO,DELETED
+55,proin leo odio,amet justo,2019/08/01,2019-04-13 02:18:53,pellentesque at,EN CURSO,ENABLED
+56,vestibulum ac est,volutpat eleifend donec,2019/11/09,2019-06-18 16:41:11,maecenas tristique,PROGRAMADO,ENABLED
+57,vestibulum ante,quis lectus,2019/03/11,2019-04-14 23:33:34,vel sem,EN CURSO,ENABLED
+58,quam pede,id nulla,2019/08/24,2019-05-24 21:57:30,lorem id,FINALIZADO,ENABLED
+59,enim blandit,habitasse platea,2019/05/28,2019-08-23 20:12:43,ultrices posuere,FINALIZADO,ENABLED
+60,hendrerit at vulputate,fusce congue,2019/06/04,2019-02-13 18:28:10,molestie hendrerit,EN CURSO,ENABLED
+61,nisl nunc rhoncus,pede posuere nonummy,2019/05/23,2019-10-29 04:12:21,nulla pede ullamcorper,EN CURSO,ENABLED
+62,dictumst aliquam,posuere felis sed,2019/04/02,2019-06-03 16:51:10,tellus nulla,PROGRAMADO,ENABLED
+63,vel sem sed,dolor vel est,2019/04/06,2019-02-19 07:00:21,pulvinar sed,EN CURSO,DELETED
+64,orci mauris lacinia,sapien cursus vestibulum,2019/03/15,2018-12-12 20:08:53,montes nascetur,EN CURSO,ENABLED
+65,curae duis faucibus,vel dapibus at,2019/03/28,2019-09-20 23:45:56,eget vulputate ut,FINALIZADO,ENABLED
+66,dictumst etiam faucibus,euismod scelerisque,2019/04/18,2018-12-22 22:48:50,turpis a pede,PROGRAMADO,DELETED
+67,justo etiam pretium,malesuada in,2019/11/14,2018-12-22 17:25:07,pellentesque eget,PROGRAMADO,DELETED
+68,volutpat dui maecenas,mi sit amet,2019/11/24,2019-11-05 13:58:37,velit eu est,FINALIZADO,ENABLED
+69,ultrices posuere,semper interdum mauris,2019/11/24,2019-09-08 10:02:35,nisi vulputate,PROGRAMADO,DELETED
+70,dolor quis odio,bibendum felis sed,2019/06/24,2019-02-10 14:34:11,curae nulla dapibus,FINALIZADO,ENABLED
+71,in hac habitasse,consectetuer eget rutrum,2019/05/06,2019-11-12 00:53:18,diam vitae quam,PROGRAMADO,ENABLED
+72,consectetuer eget,tellus nisi,2019/10/09,2019-10-20 12:30:24,id ligula,FINALIZADO,ENABLED
+73,imperdiet sapien urna,dui proin,2019/07/05,2019-03-20 05:48:01,orci luctus,EN CURSO,DELETED
+74,neque vestibulum eget,consectetuer eget,2019/02/28,2018-12-09 19:18:08,convallis duis consequat,PROGRAMADO,DELETED
+75,iaculis justo,urna pretium,2019/09/27,2019-03-29 12:59:44,luctus cum,FINALIZADO,ENABLED
+76,nam nulla integer,libero non mattis,2019/06/16,2019-04-06 23:09:00,gravida sem,EN CURSO,DELETED
+77,at lorem,in hac habitasse,2019/04/18,2019-07-11 21:09:23,odio porttitor id,EN CURSO,DELETED
+78,nulla sed vel,vel pede,2018/11/30,2019-11-03 13:32:26,tellus in sagittis,FINALIZADO,DELETED
+79,purus eu,nulla mollis,2019/08/03,2019-04-22 23:24:14,suspendisse potenti in,FINALIZADO,ENABLED
+80,turpis enim blandit,consequat dui nec,2019/08/16,2019-09-18 02:33:22,eget semper,EN CURSO,ENABLED
+81,sollicitudin mi sit,potenti cras,2019/03/27,2019-07-24 17:49:48,integer non,FINALIZADO,ENABLED
+82,nibh in quis,imperdiet et,2019/03/19,2019-06-05 20:11:19,adipiscing elit,EN CURSO,ENABLED
+83,magna vestibulum aliquet,erat eros,2019/05/01,2019-05-30 19:09:44,sem fusce consequat,FINALIZADO,ENABLED
+84,blandit nam nulla,ante nulla justo,2019/02/19,2019-03-31 21:13:15,lacus morbi,EN CURSO,DELETED
+85,viverra pede ac,pede morbi porttitor,2019/08/15,2019-08-26 19:56:51,vel pede morbi,FINALIZADO,ENABLED
+86,ac est,ac est lacinia,2019/08/31,2019-04-12 05:55:53,ullamcorper augue,EN CURSO,DELETED
+87,pede ac,dapibus dolor vel,2018/12/17,2019-01-18 06:01:11,mauris viverra,EN CURSO,DELETED
+88,eget vulputate,imperdiet et commodo,2019/05/11,2019-11-13 12:31:24,tristique tortor,PROGRAMADO,ENABLED
+89,morbi a ipsum,leo odio condimentum,2019/08/07,2019-10-06 07:10:51,elit ac,FINALIZADO,ENABLED
+90,et tempus semper,dolor sit amet,2019/04/04,2019-02-13 13:40:30,magna ac,EN CURSO,DELETED
+91,ipsum primis,ipsum dolor,2019/11/03,2019-03-04 07:07:04,congue vivamus metus,PROGRAMADO,ENABLED
+92,tellus semper interdum,turpis eget,2019/01/26,2019-05-03 11:30:10,hendrerit at vulputate,EN CURSO,DELETED
+93,arcu libero rutrum,eleifend donec ut,2019/02/21,2019-10-30 03:28:09,orci eget orci,EN CURSO,DELETED
+94,sit amet consectetuer,elit ac nulla,2019/08/14,2019-06-07 09:26:14,sed tincidunt,EN CURSO,ENABLED
+95,vitae consectetuer,bibendum felis sed,2019/02/27,2019-11-11 09:15:38,cursus vestibulum,FINALIZADO,DELETED
+96,morbi odio,lorem vitae,2019/10/18,2019-11-14 15:18:38,primis in faucibus,EN CURSO,DELETED
+97,tempor convallis nulla,quam pede,2019/06/05,2019-01-17 13:26:16,augue vestibulum,PROGRAMADO,DELETED
+98,orci luctus,suspendisse potenti,2019/07/07,2019-04-04 15:23:22,amet justo,EN CURSO,DELETED
+99,mi pede,cras non,2019/05/31,2019-06-01 02:05:10,mauris non,FINALIZADO,ENABLED
+100,sem mauris,eget orci vehicula,2019/06/19,2019-05-25 02:22:25,sed magna,EN CURSO,ENABLED
