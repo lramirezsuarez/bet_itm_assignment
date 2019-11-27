@@ -179,13 +179,13 @@ This will be in the scripts folder with the script that will include all the que
 - Articles review and explanation: [Articles REVIEW](https://drive.google.com/open?id=1bLLFG3ieXsezDn-eNGYpWDL7mf7VmXTA)
 
 11. Vistas
-- 
+- Second part of the script file.
 
 12. Triggers
--
+- Second part of the script file.
 
 13. Procedimientos Almacenados
-- 
+- Second part of the script file.
 
 14. Articulos
 - 
