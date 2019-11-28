@@ -62,3 +62,57 @@ Generalmente se dice que se usan los procedimientos para:
 Para bases de datos modernas y escenarios de uso en el mundo real, los procedimientos almacenados tienen muchos fallos y muy poco beneficio practico real.
 Solo deberia ser usado en las situaciones de perfomance mas critico. Se puede hacer una buena base de datos con SQL parametrizado y un solo ambiente de desarrollo coherente.
 
+ARTICULOS SEGUNDA PARTE
+
+El problema con el tiempo y las zonas horarias
+El tiempo entre diferentes paises y zonas del mundo es diferente, variando entre horas mas o horas menos segun la zona horaria que asignamos en la base de datos, la aplicacion, etc.
+Tener un caso para cada lugar es un problema, en lineas de codigo y logica.
+El cambio de zonas horarias cambia mucho en todo el año, y todo va segun el pais y sus decisiones.
+El mejor uso de las zonas horarias y los tiempos, es tener de referencia el numero unix que empezo a contar el tiempo a partir de 1970 y es un numero incremental entero por cada milisegundo, pero tambien existe el tiempo astrologico.
+En conclusion, lo mejor es siempre usar la libreria de codigo abierto que ya se encarga de manejar el tiempo y las zonas horarias, antes de volvernos locos.
+Google hizo un manejo donde todos los servidores y el tiemo se van adelantando o atrasando 1 milisegundo, durante todo un dia, de esta forma mantienen un mismo tiempo y aseguran la continuidad, que importa mas que la exactitud.
+
+Netflix, que pasa cuando presionas reproducir?
+Pensariamos que netflix funciona con servidores s3 aws que descargan el archivo y se reproduce, pero no es asi.
+Mirando los datos, netflix maneja estadisticas de usuarios, concurrencia, cantidad de archivos demasiado grande.
+Siendo un servicio por suscripcion los usuarios esperan que todo funcione sin problemas.
+Todos los retos a los que se ha enfretado netflix a mejorado la forma del desarrollo, ya que permite acceder a la informacion de una forma facil, incluso mostrando sus progresos en charlas y articulos.
+Usan AWS y open connect para entregar sus servicios.
+Los servicios generales, preparacion de las aplicaciones, previews, listas de contenidos, etc viene de aws.
+Al darle reproducir todo lo maneja open connect.
+Netflix maneja los 3 aspectos con una integracion vertical, que permite que funcione de la mejor forma en cualquier momento.
+Desde el inicio de netflix (alquilando dvds) estaban apuntando al streaming de videos online, pero lo hicieron bien al esperar el momento adecuado, en 2007 donde el internet era lo suficientemente rapido y confiable para hacer el streaming de contenidos. El tiempo en el que lo hicieron fue el momento exacto para su exito.
+En sus inicios hicieron sus propios datacenters y crearon escalabilidad vertical, creando computadores llamados monolitos, donde un software hacia todo.
+Una vez migraron a aws la situacion mejoro al no depender de sus propios data centers, migrando a servicios EC2 de aws en el transcurso de 8 años.
+Netflix opera en 3 regiones de aws, en el caso de que una region falle, otra region toma la carga y evita que el servicio caiga.
+Se hacen pruebas cada mes donde se bajan las regiones para verificar que la migracion entre regiones funcione correctamente.
+Las 3 regiones que usan aseguran cobertura en todo el mundo, por la accesibilidad de las 3 regiones en la mayoria de paises.
+Usando AWS ahorran dinero en comparacion con su propio datacenter.
+Todo lo que no tiene que ver con el streaming del video lo maneja aws, almacenamiento escalable, logica de negocio, computacion escalada, bases de datos distribuidas escalables, procesamiento y analisis de big data, recomendaciones, etc.
+Incluso las imagenes se personalizan segun la cuenta y la persona, lo que hace que netflix sea impulsado por los datos que obtiene.
+Segun los datos obtenidos con otros videos que hemos visto, netflix selecciona la que mas se relaciona a nuestros gustos y asigna una imagen de portada que nos llevaria a ver alguna serie o pelicula.
+Segun el dispositivo, netflix cambia el formato del video que vemos a un formato mas apropiado, de ahi se comienza un proceso donde el video recibido se valida, se divide en partes mas pequeñas y se hace el encoding de forma paralela, al final vuelve a crear un archivo por cada perfil necesario para cada dispositivo, al finalizar 1 solo video genera muchisimos archivos que incluye el video, el audio por lenguaje y los subtitulos.
+Netflix maneja 3 diferentes CDN (red de distribucion de contenidos), la idea es que estos contenidos se almacenen en lugares cercanos a los usuarios.
+En sus inicios netflix tenia su propio CDN, pero era muy pequeño para la cantidad de usuarios, luego tercerizo los CDNs con empresas confiables y en este tiempo pudo enfocarse a mejorar su infraestructura interna, algoritmos y programacion, finalmente creo su propio CND llamado Open Connect, mas economico, con mas calidad controlando el proceso de transmision de video, y mas escalable.
+Open Connect funciona con sistemas de computacion para el almacenamiento del video, que son pequeños computadores concentrados en torres que se encargan de almacenar segun la necesidad ciertos contenidos. Al final ponen pequeños lugares de almacenamiento con el catalogo, cerca a los usuarios.
+Netflix hace acuerdos con los ISP (proveedores de servicios de internet), y almacenan las unidades de Open connect en esos data centers.
+Por otra parte en los puntos de intercambio de informacion (IXPs) netflix asegura la informacion en todos los lugares sin hacer su propio datacenter.
+Netflix almacena continuamente los videos para poder ser accedidos desde la memoria persistente (cache), y este almacenamiento lo hace prediciendo que vamos a ver en ciertas regiones.
+Se accede a netflix a traves de la red interna de los ISP y no en internet, por eso se hacen los acuerdos con las ISPs, y de esta forma las ISP no tienen que generar mas infraestructura al tratar de acceder por internet a netflix, es un gana/gana por parte de las ISP y netflix.
+Los OCA (open connect appliances) se balancean segun sus cargas o sus fallos, y asi evitan que si alguno esta muy cargado o falla, la informacion no llegue o el video no se pueda transmitir.
+Netflix controla los clientes que acceden a sus servicios, asi tambien manejan que todo funcione correctamente desde los 2 extremos de la conexion, todo esto por medio de sus proios SDKs (software development kits).
+Finalmente el proceso cuando se preciona reproducir es:
+- Seleccionamos un video para reproducir.
+- Se envia un request a aws diciendo cual video queremos reproducir.
+- Se verifican las licencias (los contenidos de netflix tienen licencia para cualquier parte, otros contenidos externos no, asi que segun el pais se debe verificar la licencia)
+- Recibimos una url para el OCA mas apropiado a nuestra ubicacion y nuestra isp.
+- Segun la calidad de la conexion se asigna un OCA.
+- Segun el cliente/dispositivo se elige como recibir el contenido (encoding, formato, etc)
+- El cliente se conecta al OCA y comienza a transmitir el video al dispositivo.
+- Si la calidad varia se debe a la calidad de la conexion, el OCA del que recibimos, si se detecta que la calidad baja mucho se solicita un OCA diferente para recibir la informacion de video.
+"Que vaina mas compleja, pero mas bien pensada y echa."
+
+Por que Uber cambio de Postgres a MySQL.
+
+
+
