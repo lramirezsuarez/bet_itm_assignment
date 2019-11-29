@@ -113,6 +113,32 @@ Finalmente el proceso cuando se preciona reproducir es:
 "Que vaina mas compleja, pero mas bien pensada y echa."
 
 Por que Uber cambio de Postgres a MySQL.
-
-
-
+La arquitectura inicial de uber consistia en una aplicacion de backend escrita en python que usaba postgres para la persistencia de datos.
+Actualmente ha cambiado a un modelo de microservicios, usando Schemaless, una capa desarrollada sobre MySQL. 
+Encontraron limitaciones con postgress:
+- Arquitectura ineficiente para escritura.
+- Replicacion ineficiente para datos.
+- Problemas con corrupcion de tablas.
+- Soporte pobre para mvcc.
+- Problemas actualizando a nuevas versiones.
+Se exploran limitaciones en la representacion de las tablas y el indexado en el almacenamiento.
+Tareas claves en una base de datos relacional, posibilidad de insertar, actualizar y borrar, cambios en los esquemas, control de concurrencia multiversion (MVCC) para el uso de diferentes conexiones y la vista transaccional de los datos con los que se trabaja.
+En postgres se usan unos campos identificadores llamados ctid diferentes a los id autoincrementables, que tienen su reto a la hora de hacer los queries.
+Al crear indices para los id, y otros campos, se crean ctid diferentes, segun los datos y el orden en que esos datos se organicen en el inidice creado.
+Si actualizamos una fila se crea una nueva fila, se referencia el anterior ctid y se asigna un nuevo ctid primario.
+La replicacion se resuelve con registro llamado WAL que comprueba los datos insertados en caso de alguna falla o caida del servidor por flujo electrico u otro tipo de problema.
+Las consecuencias con los diseños en postgres.
+Cada escritura de datos requiere una carga muy pesada, por la duplicidad en las tuplas y los indices causado por el hecho de manejar el ctid.
+En el registro WAL que ayuda a la recuperacion de la base de datos se replican todos estos datos y se guarda mas datos de los necesarios incluso en la actualizacion de un solo dato.
+Corrupcion en los datos causados por el ctid, que con un simple registro puede devolver muchas filas para un query donde se pide un unico id.
+Algunas transacciones que pueden tomar tiempo, bloquean el thread de la base de datos, evitando que se realice el log en el archivo WAL, y desactualizando la informacion durante el tiempo que espera la transaccion, al mantener la conexion a la base de datos abierta mientras se ejecuta la transaccion.
+La actualizacion de una version es un problema, debido a que los backups de una version a otra es diferente, y el proceso es extenso en tiempo y en procesamiento, siendo un inconveniente muy grande pasar de una version antigua a una version nueva.
+En comparacion MySQL, tiene un motor llamado InnoDB, ademas de soportar caracteristicas como el MVCC y data mutable (manipulable).
+Las busquedas se hacen por la clave primaria, y para hacer busqueda de indices primero se busca el id, y despues de tener ese id, se hace otra busqueda.
+Es un proceso mas largo que postgres, pero mas seguro al evitar una llave adicional.
+Los registros cambiados se guardan en el segmento de rollback, y solo se generan para los indices relacionados al dato cambiado y no a todos los indices, ya que no se cambia o genera un nuevo id.
+Hay muchos cambios en el disco al hacer actualizaciones y replicas de los datos en el caso de postgres, en cambio mysql, replica una instruccion verbosa.
+La actualizacion de mysql puede hacerse sin tener que bajar la base de datos, y con cada replica al tiempo, sin cambios entre versiones.
+Otras diferencias.
+Conclusiones
+Postgres le sirvio bastante a uber en sus inicios, pero encontraron muchos problemas escalando postgres con el crecimiento. Hoy, aun tienen algunas instancias antiguas de postgress, pero la mayor parte de las bases de datos estan sobre mysql (schemaless) o, en algunos casos especializados con bases de datos nosql como cassandra. Generalmente estan bien con mysql.
