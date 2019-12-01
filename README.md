@@ -193,7 +193,7 @@ This will be in the scripts folder with the script that will include all the que
 - [Articles review](Resumen_articulos.txt#L65)
 
 15. Sustentacion
-- Scheduled for Monday December 2 at 21:30 pm.
+- Scheduled for Monday December 2 at 21:30.
 
 ---
 ## Original README.
